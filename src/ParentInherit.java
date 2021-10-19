@@ -9,5 +9,3 @@ public class ParentInherit {
         System.out.println("The differnce between the given numbers :" +z);
     }
 }
-
-
