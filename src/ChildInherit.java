@@ -5,10 +5,11 @@ public class ChildInherit extends ParentInherit{
     }
 
     public static void main(String[]args){
-        int a = 20, b =10;
+
         ChildInherit childinherit = new ChildInherit();
-        childinherit.addition(a,b);
-        childinherit.substraction(a,b);
-        childinherit.multiplication(a,b);
+        childinherit.addition(50,78);
+        childinherit.substraction(50,90);
+       childinherit.multiplication(20,30);
+       childinherit.addition(34,56);
     }
 }

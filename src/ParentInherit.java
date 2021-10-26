@@ -8,4 +8,11 @@ public class ParentInherit {
         z = x-y;
         System.out.println("The differnce between the given numbers :" +z);
     }
+
+    public static void main(String[] args) {
+        ChildInherit childInherit = new ChildInherit();
+        childInherit.multiplication(3,5);
+        childInherit.addition(4,5);
+    }
+
 }
